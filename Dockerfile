@@ -38,5 +38,5 @@ COPY --from=certs /kaniko /kaniko
 ENTRYPOINT ["/entrypoint.sh"]
 
 # Command to build and push, NOTE: Please increment the version before build
-# docker build --no-cache --platform=linux/amd64 -t public.ecr.aws/x4v6v7g4/actions-kaniko:v1.16.0-debug-cicd.0 .
-# docker push public.ecr.aws/x4v6v7g4/actions-kaniko:v1.16.0-debug-cicd.0
+# docker build --no-cache --platform=linux/amd64 -t public.ecr.aws/x4v6v7g4/action-kaniko:v1.16.0-debug-cicd.0 .
+# docker push public.ecr.aws/x4v6v7g4/action-kaniko:v1.16.0-debug-cicd.0
